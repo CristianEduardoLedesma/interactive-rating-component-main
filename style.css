@@ -20,6 +20,7 @@ body {
 }
 
 .container-rating {
+	margin-top: 50%;
 	font-family: 'Overpass', sans-serif;
 	max-width: 370px;
 	height: 400px;
@@ -155,3 +156,4 @@ body {
 .attribution a { 
 	color: hsl(25, 97%, 53%); 
 }
+
