@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit&family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit&family=Overpass:wght@400;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Overpass', sans-serif;
+	min-height: 100vh; 
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(216, 12%, 8%);
+	flex-direction: column;
+
+}
+
+
+.container-rating {
+	font-family: 'Overpass', sans-serif;
+	max-width: 370px;
+	height: 400px;
+	background-color: hsl(213, 19%, 18%);
+	padding: 30px;
+	border-radius: 30px;
+	color: hsl(217, 12%, 63%);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.container-rating  .title {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.container-rating ul {
+	list-style-type: none;
+}
+
+.container-rating ul li {
+	display: inline-block;
+}
+
+.container-rating .numbers {
+	margin: 0 15px;
+}
+
+.container-rating .btn-number {
+	font-family: 'Overpass', sans-serif;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 30px 5px;
+	background-color: hsl(213, 20%, 22%);
+	border: none;
+	color: white;
+}
+
+
+.container-rating .btn-number:hover {
+	cursor: pointer;
+	background-color: hsl(25, 97%, 53%);
+	
+}
+
+.container-rating .btn-number:focus {
+	background-color: hsl(216, 12%, 54%);
+}
+
+
+.container-rating .btn-submit {
+	font-family: 'Overpass', sans-serif;
+	width: 300px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: hsl(25, 97%, 53%);
+	border: none;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.container-rating .btn-submit:hover {
+	cursor: pointer;
+	background-color: white;
+	color: hsl(25, 97%, 53%);
+}
+
+
+
+.container-rating .star {
+	margin-bottom: 20px;
+	width: 40px;
+	padding: 10px;
+	background-color: hsl(213, 20%, 22%);
+	border-radius: 50%;
+}
+
+.container-rating .text {
+	font-size: 15px;
+}
+
+
+/*thank you*/
+
+.container-thank-you {
+	font-family: 'Overpass', sans-serif;
+	max-width: 370px;
+	height: 400px;
+	background-color: hsl(213, 19%, 18%);
+	padding: 30px;
+	border-radius: 30px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.container-thank-you .smartphone {
+	margin: 15px;
+}
+
+.container-thank-you .text-selected {
+	background-color: hsl(213, 20%, 22%);
+	border-radius: 15px;
+	padding: 5px;
+	color: hsl(25, 97%, 53%);
+	margin: 20px;
+}
+
+.container-thank-you .text {
+	text-align: center;
+	color: hsl(217, 12%, 63%);
+	margin-top: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+	margin-top: 15px;
+}
+
+.attribution a { 
+	color: hsl(25, 97%, 53%); 
+}
