@@ -10,16 +10,14 @@
 
 body {
 	font-family: 'Overpass', sans-serif;
-	min-height: 100vh; 
+	min-width: 100vh; 
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: hsl(216, 12%, 8%);
 	flex-direction: column;
-
+	background-color: hsl(216, 12%, 8%);
 }
-
 
 .container-rating {
 	font-family: 'Overpass', sans-serif;
